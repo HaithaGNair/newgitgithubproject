@@ -11,7 +11,7 @@
                echo 'Running TestNG tests...'
               
                // Use dir() instead of cd → jenkins recommended way—>Jenkins Pipeline Step
-               dir('C:\Users\ADMIN\eclipse-workspace') {
+               dir('C:/Users/ADMIN/eclipse-workspace') {
                    bat 'mvn test'
                }
            }
